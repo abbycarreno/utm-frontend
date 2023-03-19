@@ -70,6 +70,10 @@
   padding-right: 5%;
 }
 
+.l-padded-0-mob{
+  padding-left: 2rem;
+}
+
 .padded-t-l {
   padding-top: 1rem;
 }
@@ -732,8 +736,7 @@ textarea:focus {
     text-align: center;
   }
 
-
-  .padded-l-2 {
+  .l-padded-0-mob{
     padding-left: 0rem;
   }
 

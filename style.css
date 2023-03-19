@@ -668,6 +668,11 @@ textarea:focus {
 /* Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */
 
 @media (max-width: 48em) {
+
+  .flex-wrap{
+    margin-bottom: 2rem;
+  }
+
   html {
     font-size: 14px;
   }
@@ -715,13 +720,23 @@ textarea:focus {
     margin-bottom: 0;
   }
 
-  .logo h2 {
-    font-size: 2rem;
-  }
-
   header h3 {
     font-size: 11vw;
   }
+
+  .dash-tab {
+    font-size: 18px;
+    font-size: 16px;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+  }
+
+
+  .padded-l-2 {
+    padding-left: 0rem;
+  }
+
 }
 
 /* XS Media Query (36em / 576px) */
@@ -742,6 +757,12 @@ textarea:focus {
 
   h2 {
     font-size: 2rem;
+  }
+
+ 
+
+  .dash-icon {
+    padding: 2.75px 12px 0 0;
   }
 }
 
